@@ -1,0 +1,43 @@
+name: pokemonworld
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2 # Open screens/snack-bars/dialogs without context, manage states and inject dependencies easily with GetX.
+  flutter_animate: ^4.5.2
+  flutter_staggered_animations: ^1.1.1
+  dio: ^5.8.0+1 # A powerful HTTP networking package, supports Interceptors, Aborting and canceling a request.
+  connectivity_plus: ^6.1.4 # Flutter plugin for discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.
+  cached_network_image: ^3.4.1 # Flutter library to load and cache network images. Can also be used with placeholder and error widgets.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app.png"
+  min_sdk_android: 21
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
